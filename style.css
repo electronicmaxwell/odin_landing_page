@@ -44,14 +44,14 @@ button {
 
 .rectangle {
     height: 500px;
-}
-
-.one {
-    background-color: #1f2937;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 20px 150px;
+}
+
+.one {
+    background-color: #1f2937;
     color: #F9FAF8;
 }
 
@@ -75,13 +75,52 @@ button {
     flex: 50% 1 1;
 }
 
-.beer-drone img {
+.beer-drone img,
+.icon img {
     max-width: 100%;
     height: auto;
 }
 
+.icon img {
+    border-radius: 15px;
+}
+
 .two {
     background-color: #F9FAF8;
+}
+
+.two-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.icon-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 10px 150px;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.caption {
+    text-align: center;
 }
 
 .three {
