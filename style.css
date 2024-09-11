@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto", sans-serif;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+button {
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+  }
+
+.right-links a {
+    color: #E5E7EB;
+    font-weight: 50;
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    background-color: #1f2937;
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 20px 150px;
+    align-items: center ;
+}
+
+.right-links {
+    margin-left: auto;
+    font-size: 18px;
+    
+}
+
+.rectangle {
+    height: 500px;
+}
+
+.one {
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 150px;
+    color: #F9FAF8;
+}
+
+.hero-container {
+    flex: 50% 1 1;
+}
+
+.hero-header {
+    font-size: 60px;
+    font-weight: 800;
+}
+
+.hero-container button {
+    background: #3882f6;
+    border: 1px solid #3882f6;
+    margin-top: 10px;
+    color: #F9FAF8;
+}
+
+.beer-drone {
+    flex: 50% 1 1;
+}
+
+.beer-drone img {
+    max-width: 100%;
+    height: auto;
+}
+
+.two {
+    background-color: #F9FAF8;
+}
+
+.three {
+    background-color: #E5E7EB;
+}
+
+.four {
+    background-color: #F9FAF8;
+}
+
+.footer {
+    background-color: #1f2937;
+}
