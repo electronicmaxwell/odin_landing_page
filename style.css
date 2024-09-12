@@ -133,6 +133,7 @@ button {
     font-size: 30px;
     font-weight: 500;
     font-style: italic;
+    max-height: 100%;
 }
 
 .author {
